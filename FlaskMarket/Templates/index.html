@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content%}Welcome to DailyDash{% endblock %}
+{% block paragraph%}
+<div class="container mt-5">
+    <div class="row align-items-center">
+        <div class="col-md-8">
+            <!-- Header on the left -->
+            <h1>My Header</h1>
+        </div>
+        <div class="col-md-4">
+            <!-- Image on the right -->
+            <img src="{{ url_for('static', filename='calender.png') }}" alt="Image"  style="height: 300px; width: auto;">
+
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+
